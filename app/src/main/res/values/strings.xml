@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetoIF</string>
+    <string name="nova_frase">nova frase</string>
+    <string name="lets_begin">Vamos Começar?</string>
+    <string name="qual_e_seu_nome">Qual e seu nome?</string>
+    <string name="save">salvar</string>
+    <string name="digite_seu_nome">Digite seu nome…</string>
+    <string name="hello">Olá</string>
+</resources>
