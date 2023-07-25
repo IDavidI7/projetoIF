@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjetoIF</string>
+    <string name="nova_frase">Nouvelle phrase</string>
+    <string name="lets_begin">Allons commencer ?</string>
+    <string name="qual_e_seu_nome">Quel est votre nom ?</string>
+    <string name="save">Sauvegarder</string>
+    <string name="digite_seu_nome">Entrez votre nom…</string>
+    <string name="hello">Bonjour</string>
+</resources>

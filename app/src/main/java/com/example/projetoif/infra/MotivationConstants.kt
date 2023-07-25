@@ -9,7 +9,14 @@ class MotivationConstants private constructor() {
     object CATEGORY {
         const val tablet: Int = 1
         const val touch: Int = 2
-        const val basquet: Int = 3
+        const val basketball: Int = 3
+    }
+
+    object LANGUAGE {
+        const val PORTUGUESE = "pt"
+        const val ENGLISH = "en"
+        const val ARABC = "ar"
+        const val FRANCE = "fr"
     }
 
 }

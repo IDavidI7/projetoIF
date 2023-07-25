@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun hangleUserName() {
-        getString(R.string.hello)
         val name = SecurityPreferences(this).getString(MotivationConstants.KEY.USER_NAME)
         val olaPerson = "${getString(R.string.hello)}, $name"
         binding.nome.text = olaPerson
@@ -56,7 +55,7 @@ class MainActivity : AppCompatActivity() {
     private fun eventOfClick() {
         binding.basquet.setOnClickListener {
             handleFilter(binding.basquet)
-            categorhId = MotivationConstants.CATEGORY.basquet
+            categorhId = MotivationConstants.CATEGORY.basketball
         }
         binding.touch.setOnClickListener {
             handleFilter(binding.touch)
@@ -72,7 +71,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun handlePhrase() {
-        Locale.getDefault()
-        binding.frase.text = Mock().getPhrase(categorhId)
+        binding.frase.text = Mock().getPhrase(categorhId, Locale.getDefault().language)
     }
 }

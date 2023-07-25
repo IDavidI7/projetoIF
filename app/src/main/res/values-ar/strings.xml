@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مشروع آي إف</string>
+    <string name="nova_frase">عبارة جديدة</string>
+    <string name="lets_begin">هل نبدأ؟</string>
+    <string name="qual_e_seu_nome">ما هو اسمك؟</string>
+    <string name="save">حفظ</string>
+    <string name="digite_seu_nome">أدخل اسمك…</string>
+    <string name="hello">مرحبا</string>
+</resources>
